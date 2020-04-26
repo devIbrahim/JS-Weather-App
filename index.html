@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App | Syed Anees Ibrahim</title>
+    <link href="https://fonts.googleapis.com/css?family=Economica&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <div class="container my-5 mx-auto">
+
+        <form class="change-location my-4 text-center text-muted">
+            <h1 class="text-muted text-center my-4">Weather App</h1>
+            <label for="city">Enter a location for weather info</label>
+            <input autofocus type="text" name="city" class="form-control p-4">
+        </form>
+
+        <div class="card d-none shadow-lg rounded">
+            <img src="placeholder.png" class="time card-img-top">
+            <div class="icon bg-light mx-auto text-center">
+                <img src="" alt="">
+            </div>
+            <div class="text-muted text-uppercase text-center details">
+                <h5 class="my-3">City name</h5>
+                <div class="my-3">Weather condition</div>
+                <div class="display-4 my-4">
+                    <span>temp</span>
+                    <span>&deg;C</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>
+            &lt;&#47;&gt; by <a target="_blank" href="https://devibrahim.imfast.io">Syed Anees Ibrahim</a>
+        </p>
+    </footer>
+
+<script src="scripts/forecast.js"></script>
+<script src="scripts/app.js"></script>
+</body>
+</html>
